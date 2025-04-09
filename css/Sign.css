@@ -1,0 +1,73 @@
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXowQxPJYMOf6VRpb9jr-5aesgezFMdWnJw&s);
+background-repeat: no-repeat;
+background-size: 100% 100vh;
+}
+div{
+   max-width:100%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 2px 0;
+    text-align: center;
+    font-size: 25px;
+}
+ input{
+   padding: 0.5rem;
+   border: none;
+   background-color: #eff3f6;
+   border-radius: 0.5rem;
+   width: 95%;
+   outline: none;
+ }
+ #p1{
+    margin: 0px 0 15px 0;
+    text-align: center;
+ }
+ #p2{
+    margin-left: 11.1rem;
+    font-weight: 450;
+text-decoration: none;
+color: black;
+ }
+ #p3{
+   text-align: center;
+ }
+ button{
+   padding: 0.5rem;
+   border: none;
+   background-color: black;
+   border-radius: 0.5rem;
+   width: 100%;
+   outline: none;
+   cursor: pointer;
+    color: white;
+    margin-top: 10px;
+ }
+ #form{
+   width: 22%;
+background-color: rgba(191, 202, 231, 0.692);
+border-radius: 0.5rem;
+padding: 4rem;
+margin: 10rem auto -10rem; 
+box-shadow: 2px 3px 10px black;
+position: relative;
+ }
+.fa-solid{
+   position: absolute;
+   right: 4rem;
+   top: 12.6rem;
+}
+/* #google{
+   height: 6vh;
+   border-radius: 10px;
+   background-color: white;
+ }=
+ #face{
+   width: 20px;
+   height: 6vh;
+ }
+ #apple{
+   width: 20px;
+   height: 6vh;
+ } */
