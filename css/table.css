@@ -1,0 +1,83 @@
+body{
+    min-height: 50vh;
+    font-family: sans-serif;
+align-items: center;
+justify-content: center;
+background-color: rgb(243, 242, 240);
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -25px;
+    left: -5px;
+}
+table, tr, td{
+    padding: 1rem;
+}
+table{
+    width: 90%;
+    text-align: left;
+    background-color: white; 
+    border-collapse: separate;
+    margin: 15rem auto;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+th{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-weight: 500;
+}
+#doll{
+color: rgba(7, 207, 7, 0.747);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(165, 197, 224);
+    font-size: small;
+    margin-left: 2.1rem;
+}
+#mus{
+    color: purple;
+}
+p1{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(165, 197, 224); 
+    margin-left: 0.1rem
+}
+p2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(165, 197, 224); 
+    margin-left: 4rem;
+    font-size: small;
+}
+p3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(165, 197, 224); 
+    margin-left: -3rem;
+    font-size: small;
+}
+span{
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(240, 229, 240);
+    padding: 2rem 0.5rem;
+    text-align: center;
+    color: purple;
+    position: relative;
+    left: -8px;
+}
+#today{
+    border: 0.2px solid black;
+    border-radius: 100px 100px 100px 100px;
+}

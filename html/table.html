@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Table</title>
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Transaction</th>
+            <th id="today">Today<i class="fa-solid fa-angle-down"></i></th>
+            <th>Platform Partner</th>
+            <th>Recent Event</th>
+            <th id="today">Date<i class="fa fa-ellipsis-h"></i></th>
+        </tr>
+        <tr>
+            <td>Ticket Profit <br><p1>18 March 2020</p1></td>
+            <td id="doll">$996.79</td>
+            <td> <img src="data:image/png;base64,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" alt=""> Eventbrite<p>Next Contact:June 10, 2020</p> </td>
+            <td><span>Sun 18</span>Music Soundsation 2020 <br><p2>jiexpo Kemayoran, Jakarta</p2></td>
+            <td>
+                <ul>
+                    <li id="mus">Music</li><p3>08 Am - 12Pm</p3>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <div>
+        
+    </div>
+</body>
+</html>
